@@ -1,0 +1,22 @@
+{
+  "doc": "In-Sight Edge stream track unit elements available request message",
+  "name": "StreamTrackUnitElementsResponse",
+  "namespace": "insight.edge",
+  "type": "record",
+  "fields": [
+    {
+      "name": "request_id",
+      "type": "long"
+    },
+    {
+      "name": "stream_unit",
+      "type": "insight.edge.Unit"
+    },
+    {
+      "name": "values",
+      "type": "array",
+      "items": "insight.edge.UnitElementValue",
+      "default": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "doc": "In-Sight Edge Stream Tracks Request Record",
+  "name": "StreamTracksRequest",
+  "namespace": "insight.edge",
+  "type": "record",
+  "fields": [
+    {
+      "name": "request_id",
+      "type": "long"
+    },
+    {
+      "name": "topic",
+      "type": "string"
+    },
+    {
+      "name": "stream_name",
+      "type": "bytes"
+    }
+  ]
+}

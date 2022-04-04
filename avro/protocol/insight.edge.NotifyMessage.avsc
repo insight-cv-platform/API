@@ -1,0 +1,28 @@
+{
+  "doc": "In-Sight Edge Unit Notify Message",
+  "name": "NotifyMessage",
+  "namespace": "insight.edge",
+  "type": "record",
+  "fields": [
+    {
+      "name": "stream_unit",
+      "type": "insight.edge.Unit"
+    },
+    {
+      "name": "last_element",
+      "type": "int"
+    },
+    {
+      "name": "saved_ms",
+      "type": "long"
+    },
+    {
+      "name": "notify_type",
+      "type": "enum",
+      "symbols": [
+        "READY",
+        "NEW"
+      ]
+    }
+  ]
+}

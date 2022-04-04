@@ -1,0 +1,24 @@
+{
+  "doc": "In-Sight Edge Stream Tracks Request Record",
+  "name": "PingRequestResponse",
+  "namespace": "insight.edge",
+  "type": "record",
+  "fields": [
+    {
+      "name": "request_id",
+      "type": "long"
+    },
+    {
+      "name": "topic",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "enum",
+      "symbols": [
+        "REQUEST",
+        "RESPONSE"
+      ]
+    }
+  ]
+}

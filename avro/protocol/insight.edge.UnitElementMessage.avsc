@@ -1,0 +1,31 @@
+{
+  "doc": "In-Sight Edge Unit Element Message",
+  "name": "UnitElementMessage",
+  "namespace": "insight.edge",
+  "type": "record",
+  "fields": [
+    {
+      "name": "stream_unit",
+      "type": "insight.edge.Unit"
+    },
+    {
+      "name": "element",
+      "type": "long"
+    },
+    {
+      "name": "value",
+      "type": "bytes"
+    },
+    {
+      "name": "attributes",
+      "type": "map",
+      "values" : "string",
+      "default": {}
+    },
+    {
+      "name": "last",
+      "type": "boolean"
+    }
+
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "doc": "In-Sight Edge Unit Record",
+  "name": "Unit",
+  "namespace": "insight.edge",
+  "type": "record",
+  "fields": [
+    {
+      "name": "stream_name",
+      "type": "bytes"
+    },
+    {
+      "name": "track_name",
+      "type": "bytes"
+    },
+    {
+      "name": "track_type",
+      "type": "insight.edge.TrackType"
+    },
+    {
+      "name": "unit",
+      "type": "long"
+    }
+  ]
+}

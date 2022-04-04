@@ -1,0 +1,10 @@
+{
+  "doc": "In-Sight Edge Unit Record",
+  "name": "TrackType",
+  "namespace": "insight.edge",
+  "type": "enum",
+  "symbols": [
+    "VIDEO",
+    "META"
+  ]
+}

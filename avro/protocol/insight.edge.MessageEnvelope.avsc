@@ -1,0 +1,17 @@
+{
+  "doc": "In-Sight Edge Message envelope",
+  "name": "MessageEnvelope",
+  "namespace": "insight.edge",
+  "type": "record",
+  "fields": [
+    {
+      "name": "schema",
+      "type": "bytes"
+    },
+    {
+      "name": "payload",
+      "type": "bytes"
+    }
+  ]
+}
+

@@ -1,0 +1,22 @@
+{
+  "doc": "In-Sight Edge Stream Tracks Response Record",
+  "name": "StreamTracksResponse",
+  "namespace": "insight.edge",
+  "type": "record",
+  "fields": [
+    {
+      "name": "request_id",
+      "type": "long"
+    },
+    {
+      "name": "stream_name",
+      "type": "bytes"
+    },
+    {
+      "name": "tracks",
+      "type": "array",
+      "items": "insight.edge.TrackInfo",
+      "default": []
+    }
+  ]
+}

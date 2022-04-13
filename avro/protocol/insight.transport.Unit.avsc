@@ -1,7 +1,7 @@
 {
-  "doc": "In-Sight Edge Unit Record",
+  "doc": "In-Sight Unit Record",
   "name": "Unit",
-  "namespace": "insight.edge",
+  "namespace": "insight.transport",
   "type": "record",
   "fields": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "name": "track_type",
-      "type": "insight.edge.TrackType"
+      "type": "insight.transport.TrackType"
     },
     {
       "name": "unit",

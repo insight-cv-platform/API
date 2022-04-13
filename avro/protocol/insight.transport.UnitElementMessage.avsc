@@ -1,12 +1,12 @@
 {
-  "doc": "In-Sight Edge Unit Element Message",
+  "doc": "In-Sight Unit Element Message",
   "name": "UnitElementMessage",
-  "namespace": "insight.edge",
+  "namespace": "insight.transport",
   "type": "record",
   "fields": [
     {
       "name": "stream_unit",
-      "type": "insight.edge.Unit"
+      "type": "insight.transport.Unit"
     },
     {
       "name": "element",
@@ -19,13 +19,12 @@
     {
       "name": "attributes",
       "type": "map",
-      "values" : "string",
+      "values": "string",
       "default": {}
     },
     {
       "name": "last",
       "type": "boolean"
     }
-
   ]
 }

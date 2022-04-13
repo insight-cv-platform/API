@@ -1,7 +1,7 @@
 {
-  "doc": "In-Sight Edge Stream Tracks Request Record",
+  "doc": "In-Sight Stream Tracks Request Record",
   "name": "StreamTracksRequest",
-  "namespace": "insight.edge",
+  "namespace": "insight.transport",
   "type": "record",
   "fields": [
     {

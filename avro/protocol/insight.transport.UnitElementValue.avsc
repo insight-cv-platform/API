@@ -1,0 +1,18 @@
+{
+  "doc": "In-Sight Unit Element Value",
+  "name": "UnitElementValue",
+  "namespace": "insight.transport",
+  "type": "record",
+  "fields": [
+    {
+      "name": "data",
+      "type": "bytes"
+    },
+    {
+      "name": "attributes",
+      "type": "map",
+      "values": "string",
+      "default": {}
+    }
+  ]
+}

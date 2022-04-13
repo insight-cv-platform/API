@@ -1,7 +1,7 @@
 {
-  "doc": "In-Sight Edge Unit Record",
+  "doc": "In-Sight Unit Record",
   "name": "TrackType",
-  "namespace": "insight.edge",
+  "namespace": "insight.transport",
   "type": "enum",
   "symbols": [
     "VIDEO",

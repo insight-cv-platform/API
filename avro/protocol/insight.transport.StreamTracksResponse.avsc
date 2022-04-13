@@ -1,7 +1,7 @@
 {
-  "doc": "In-Sight Edge Stream Tracks Response Record",
+  "doc": "In-Sight Stream Tracks Response Record",
   "name": "StreamTracksResponse",
-  "namespace": "insight.edge",
+  "namespace": "insight.transport",
   "type": "record",
   "fields": [
     {
@@ -15,7 +15,7 @@
     {
       "name": "tracks",
       "type": "array",
-      "items": "insight.edge.TrackInfo",
+      "items": "insight.transport.TrackInfo",
       "default": []
     }
   ]

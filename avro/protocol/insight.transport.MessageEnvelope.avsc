@@ -1,7 +1,7 @@
 {
-  "doc": "In-Sight Edge Message envelope",
+  "doc": "In-Sight Message envelope",
   "name": "MessageEnvelope",
-  "namespace": "insight.edge",
+  "namespace": "insight.transport",
   "type": "record",
   "fields": [
     {

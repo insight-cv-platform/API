@@ -1,12 +1,12 @@
 {
-  "doc": "In-Sight Edge Unit Notify Message",
+  "doc": "In-Sight Unit Notify Message",
   "name": "NotifyMessage",
-  "namespace": "insight.edge",
+  "namespace": "insight.transport",
   "type": "record",
   "fields": [
     {
       "name": "stream_unit",
-      "type": "insight.edge.Unit"
+      "type": "insight.transport.Unit"
     },
     {
       "name": "last_element",

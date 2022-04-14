@@ -1,0 +1,24 @@
+{
+  "doc": "In-Sight FFprobe Response",
+  "name": "Response",
+  "namespace": "insight.ffprobe",
+  "type": "record",
+  "fields": [
+    {
+      "name": "request_id",
+      "type": "long"
+    },
+    {
+      "name": "attributes",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "map",
+          "values": "string",
+          "default": {}
+        }
+      },
+      "default": []
+    }
+  ]
+}

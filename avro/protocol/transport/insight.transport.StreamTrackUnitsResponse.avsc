@@ -10,7 +10,7 @@
     },
     {
       "name": "stream_unit",
-      "type": "insight.transport.Unit"
+      "type": "insight.storage.Unit"
     },
     {
       "name": "from_ms",

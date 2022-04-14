@@ -15,7 +15,7 @@
     {
       "name": "tracks",
       "type": "array",
-      "items": "insight.transport.TrackInfo",
+      "items": "insight.storage.TrackInfo",
       "default": []
     }
   ]

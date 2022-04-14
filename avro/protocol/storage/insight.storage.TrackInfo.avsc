@@ -1,7 +1,7 @@
 {
   "doc": "In-Sight Unit Record",
   "name": "TrackInfo",
-  "namespace": "insight.transport",
+  "namespace": "insight.storage",
   "type": "record",
   "fields": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "name": "type",
-      "type": "insight.transport.TrackType"
+      "type": "insight.storage.TrackType"
     }
   ]
 }

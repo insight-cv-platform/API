@@ -1,7 +1,7 @@
 {
   "doc": "In-Sight Unit Element Value",
   "name": "UnitElementValue",
-  "namespace": "insight.transport",
+  "namespace": "insight.storage",
   "type": "record",
   "fields": [
     {

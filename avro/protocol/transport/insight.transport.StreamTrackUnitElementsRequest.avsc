@@ -1,6 +1,6 @@
 {
   "doc": "In-Sight stream track unit elements available request message",
-  "name": "StreamTrackUnitElementsResponse",
+  "name": "StreamTrackUnitElementsRequest",
   "namespace": "insight.transport",
   "type": "record",
   "fields": [
@@ -9,14 +9,16 @@
       "type": "long"
     },
     {
-      "name": "stream_unit",
-      "type": "insight.transport.Unit"
+      "name": "topic",
+      "type": "string"
     },
     {
-      "name": "values",
-      "type": "array",
-      "items": "insight.transport.UnitElementValue",
-      "default": []
+      "name": "stream_unit",
+      "type": "insight.storage.Unit"
+    },
+    {
+      "name": "max_element",
+      "type": "long"
     }
   ]
 }

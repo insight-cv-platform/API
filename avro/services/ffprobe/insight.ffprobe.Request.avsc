@@ -1,0 +1,26 @@
+{
+  "doc": "In-Sight FFprobe Request",
+  "name": "Request",
+  "namespace": "insight.ffprobe",
+  "type": "record",
+  "fields": [
+    {
+      "name": "request_id",
+      "type": "long"
+    },
+    {
+      "name": "topic",
+      "type": "string"
+    },
+    {
+      "name": "attributes",
+      "type": "map",
+      "values": "string",
+      "default": {}
+    },
+    {
+      "name": "url",
+      "type": "string"
+    }
+  ]
+}

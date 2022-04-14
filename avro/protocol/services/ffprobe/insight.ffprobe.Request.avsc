@@ -13,14 +13,14 @@
       "type": "string"
     },
     {
+      "name": "url",
+      "type": "string"
+    },
+    {
       "name": "attributes",
       "type": "map",
       "values": "string",
       "default": {}
-    },
-    {
-      "name": "url",
-      "type": "string"
     }
   ]
 }

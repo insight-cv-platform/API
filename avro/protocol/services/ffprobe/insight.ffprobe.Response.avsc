@@ -10,13 +10,11 @@
     },
     {
       "name": "response_type",
-      "type": {
-        "type": "enum",
-        "symbols": [
-          "ACCEPTED",
-          "COMPLETE"
-        ]
-      }
+      "type": "enum",
+      "symbols": [
+        "ACCEPTED",
+        "COMPLETE"
+      ]
     },
     {
       "name": "streams",

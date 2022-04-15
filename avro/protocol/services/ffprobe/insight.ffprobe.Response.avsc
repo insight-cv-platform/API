@@ -9,6 +9,16 @@
       "type": "long"
     },
     {
+      "name": "response_type",
+      "type": {
+        "type": "enum",
+        "symbols": [
+          "ACCEPTED",
+          "COMPLETE"
+        ]
+      }
+    },
+    {
       "name": "streams",
       "type": {
         "type": "array",

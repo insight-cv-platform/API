@@ -1,5 +1,5 @@
 {
-  "doc": "In-Sight Unit Record",
+  "doc": "In-Sight Track type Record",
   "name": "TrackType",
   "namespace": "insight.storage",
   "type": "enum",

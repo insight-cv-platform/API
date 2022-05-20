@@ -1,5 +1,5 @@
 {
-  "doc": "In-Sight stream track unit elements available request message",
+  "doc": "In-Sight stream track unit elements available response message",
   "name": "StreamTrackUnitElementsResponse",
   "namespace": "insight.transport",
   "type": "record",

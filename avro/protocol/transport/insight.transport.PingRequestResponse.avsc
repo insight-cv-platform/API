@@ -1,5 +1,5 @@
 {
-  "doc": "In-Sight Stream Tracks Request Record",
+  "doc": "In-Sight Ping Request Response",
   "name": "PingRequestResponse",
   "namespace": "insight.transport",
   "type": "record",

@@ -1,5 +1,5 @@
 {
-  "doc": "In-Sight Unit Record",
+  "doc": "In-Sight Track info Record",
   "name": "TrackInfo",
   "namespace": "insight.storage",
   "type": "record",

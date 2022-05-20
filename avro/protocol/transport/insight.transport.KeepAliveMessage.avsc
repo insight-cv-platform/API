@@ -1,0 +1,12 @@
+{
+  "doc": "In-Sight KeepAlive Message",
+  "name": "KeepAliveMessage",
+  "namespace": "insight.transport",
+  "type": "record",
+  "fields": [
+    {
+      "name": "module_id",
+      "type": "string"
+    }
+  ]
+}
